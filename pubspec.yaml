@@ -1,0 +1,33 @@
+name: googlesigninwithflavor
+description: A Very Good Project created by Very Good CLI.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+dependencies:
+  bloc: ^8.0.3
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.0.1
+  intl: ^0.17.0
+  google_sign_in: ^5.2.4
+  equatable: ^2.0.3
+  firebase_core: ^1.14.0
+  firebase_auth: ^3.3.13
+  flutter_native_splash: ^2.1.5
+  
+
+dev_dependencies:
+  bloc_test: ^9.0.3
+  flutter_test:
+    sdk: flutter
+  mocktail: ^0.3.0
+  very_good_analysis: ^2.4.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - asset/

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "506151306079",
+    "project_id": "flavor-prd",
+    "storage_bucket": "flavor-prd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:506151306079:android:e414701de95ed240a2acea",
+        "android_client_info": {
+          "package_name": "com.example.verygoodcore.googlesigninwithflavor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "506151306079-42boo2m64gvjhsmu2k0ivgbsbr1aj3e5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.verygoodcore.googlesigninwithflavor",
+            "certificate_hash": "3a8afb117a284d1f653a5a05856277601ab7128c"
+          }
+        },
+        {
+          "client_id": "506151306079-ev3bcglpg70nv8f7qqnarpnrh8opnigc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdLZ8Q1p_yQbOtKWkYX5bw4RLwtVYADqo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "506151306079-ev3bcglpg70nv8f7qqnarpnrh8opnigc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
