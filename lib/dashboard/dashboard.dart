@@ -3,21 +3,17 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:googlesigninwithflavor/app/bloc/google_sign_in_bloc.dart';
 import 'package:googlesigninwithflavor/app/view/google_sign_in_view.dart';
-import 'package:googlesigninwithflavor/repository/authentication_repository.dart';
 
 class DashBoard extends StatelessWidget {
   const DashBoard({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return RepositoryProvider(
-      create: (context) => AuthenticationRepository(),
-      child: BlocProvider(
-        create: (context) => GoogleSignInBloc(
-          authenticationRepository: RepositoryProvider.of(context),
-        ),
-        child: DashBoardDetails(),
+    return BlocProvider(
+      create: (context) => GoogleSignInBloc(
+        authenticationRepository: RepositoryProvider.of(context),
       ),
+      child: DashBoardDetails(),
     );
   }
 }

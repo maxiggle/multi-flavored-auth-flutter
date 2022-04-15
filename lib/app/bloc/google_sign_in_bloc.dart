@@ -17,6 +17,7 @@ class GoogleSignInBloc extends Bloc<GoogleSignInEvent, GoogleSignInState> {
     GoogleSignInRequested event,
     Emitter<GoogleSignInState> emit,
   ) async {
+    emit(Loading());
     final response = await authenticationRepository.signInWithGoogle();
 
     if (response) {

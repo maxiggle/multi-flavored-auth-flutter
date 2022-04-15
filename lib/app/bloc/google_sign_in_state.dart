@@ -8,3 +8,5 @@ abstract class GoogleSignInState extends Equatable {
 class UnAuthenticated extends GoogleSignInState {}
 
 class Authenticated extends GoogleSignInState {}
+
+class Loading extends GoogleSignInState {}
